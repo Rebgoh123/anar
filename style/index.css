@@ -43,6 +43,57 @@
     .slick-next{
         display: none!important;
     }
+
+    .header-button{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+
+    .header-button-grid{
+        padding:12px 0!important;
+    }
+
+    .button-header{
+        width:100%;
+        height:3rem!important;
+        color:white!important;
+        padding: 0px!important;
+        border: none!important;
+        font-size: 1.6vh;
+        border-radius: 0!important;
+    }
+
+    .button-header-per{
+        background-color:#C4161C!important;
+        margin-left: 12px!important;
+    }
+
+    .button-header-biz{
+        background-color:#828F97!important;
+        margin-right: 12px!important;
+    }
+
+    .header-button-left{
+        display: flex;
+        justify-content: flex-end;
+        box-shadow: none!important;
+        justify-content: flex-end;
+        background-color:transparent!important;
+    }
+
+    .header-button-outer{
+        height:3rem;
+        padding-top:0.8rem!important;
+        background:rgba(000,000,000,0.5)!important;
+    }
+
+    .header-button-right{
+        display: flex;
+        box-shadow: none!important;
+        justify-content: flex-start;
+        background-color:transparent!important;
+    }
 }
 
 @media only screen and (min-width : 500px) {
@@ -50,7 +101,6 @@
         left:3rem!important;
         display: block!important;
     }
-
 
     .slick-next:before, .slick-prev:before {
         font-size: 28px!important;
@@ -73,30 +123,30 @@
         background:transparent;
     }
 
+    .header-button-grid{
+        padding:12px !important;
+    }
+
     .header-button{
         position: relative;
-        top: -6.5em;
+        top: -7em;
+    }
+
+    .button-header{
+        width:21vw;
+        height: 6vh!important;
+        color:white!important;
+        padding: 0px!important;
+        border: none!important;
+        font-size: 1.6vh!important;
     }
 
     .button-header-per{
-        width:20vw;
-        height: 6vh!important;
-        color:white!important;
         background-color:#C4161C!important;
-        padding: 0px!important;
-        border: none!important;
-        font-size: 1.6vh!important;
     }
 
-/*828F97*/
     .button-header-biz{
-        width:20vw;
-        height: 6vh!important;
-        color:white!important;
         background-color:#828F97!important;
-        padding: 0px!important;
-        border: none!important;
-        font-size: 1.6vh!important;
     }
 
     .header-button-left{
@@ -106,12 +156,11 @@
         background-color:transparent!important;
     }
 
-    .header-button-left-outer{
+    .header-button-outer{
         height:6vh!important;
-        padding-top:1.3rem!important;
-        background-color:#9D1016!important;
+        padding-top:0.7em!important;
+        background:rgba(000,000,000,0.5)!important;
     }
-
 
     .header-button-right{
         display: flex;
@@ -119,13 +168,6 @@
         justify-content: flex-start;
         background-color:transparent!important;
     }
-
-    .header-button-right-outer{
-        height:6vh!important;
-        padding-top:1.3rem!important;
-        background-color:#6C767B!important;
-    }
-
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
@@ -134,19 +176,29 @@
         top: 4rem;
     }
 
-    .button-header-per{
-        height: 4.8vh!important;
+    .button-header{
+        height: 4.5vh!important;
         font-size: 1.3vh!important;
     }
 
-    .header-button-left-outer{
-        height:4.8vh!important;
-        padding-top:1.4rem!important;
+    .header-button-outer{
+        height: 4.5vh!important;
+        padding-top:0.85em!important;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1920px) {
+    .caption {
+        top: 4rem;
     }
 
-    .header-button-right-outer{
-        height:4.8vh!important;
-        padding-top:1.4rem!important;
+    .button-header{
+        height: 6.5vh!important;
+        font-size: 2.1vh!important;
+    }
+
+    .header-button-outer{
+        height: 6.5vh!important;
     }
 }
 

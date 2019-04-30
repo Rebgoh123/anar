@@ -101,10 +101,10 @@ class Home extends Component{
 
                     <Grid item xs={6} className="header-button-grid">
                         <Paper className="header-button-left">
-                            <Button variant="outlined" className="button-header-per">
+                            <Button variant="outlined" className="button-header-per button-header">
                                 <Grid item xs={10} className="header-button-left-inner">
                                         PERSONAL LOAN
-                                </Grid> <Grid item xs={2} className="header-button-left-outer">
+                                </Grid> <Grid item xs={2} className="header-button-outer">
                                 <i className="fas fa-arrow-right"></i>
                             </Grid>
                             </Button>
@@ -112,10 +112,10 @@ class Home extends Component{
                     </Grid>
                     <Grid item xs={6} className="header-button-grid">
                         <Paper className="header-button-right">
-                            <Button variant="outlined" className="button-header-biz">
+                            <Button variant="outlined" className="button-header-biz button-header">
                                 <Grid item xs={10} className="header-button-left-inner">
-                                    PERSONAL LOAN
-                                </Grid> <Grid item xs={2} className="header-button-right-outer">
+                                        BUSINESS LOAN
+                                </Grid> <Grid item xs={2} className="header-button-outer">
                                 <i className="fas fa-arrow-right"></i>
                             </Grid>
                             </Button>
