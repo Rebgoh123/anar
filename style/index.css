@@ -1,0 +1,152 @@
+.app{
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(255,255,255,0.5);
+}
+
+.slick-list {
+    z-index: -1;
+}
+
+.caption {
+    font-size: 4vw;
+    position: absolute;
+}
+
+.bannerSize{
+    width:100%;
+}
+
+@media screen and (min-width: 300px) {
+    .bannerSize{
+        height:190px
+    }
+
+    .caption {
+        margin-left: 1.4rem;
+        top: 2rem;
+        background:rgba(255,255,255,0.5);
+        padding:15px;
+    }
+
+    .slick-prev{
+        display: none!important;
+    }
+
+    .slick-next{
+        display: none!important;
+    }
+}
+
+@media only screen and (min-width : 500px) {
+    .slick-prev{
+        left:3rem!important;
+        display: block!important;
+    }
+
+
+    .slick-next:before, .slick-prev:before {
+        font-size: 28px!important;
+    }
+
+    .slick-next{
+        right:3rem!important;
+        display: block!important;
+    }
+
+    .bannerSize{
+        height:auto
+    }
+
+    .caption {
+        margin-left: 6rem;
+        font-size: 2.5vw;
+        position: absolute;
+        top: 5rem;
+        background:transparent;
+    }
+
+    .header-button{
+        position: relative;
+        top: -6.5em;
+    }
+
+    .button-header-per{
+        width:20vw;
+        height: 6vh!important;
+        color:white!important;
+        background-color:#C4161C!important;
+        padding: 0px!important;
+        border: none!important;
+        font-size: 1.6vh!important;
+    }
+
+/*828F97*/
+    .button-header-biz{
+        width:20vw;
+        height: 6vh!important;
+        color:white!important;
+        background-color:#828F97!important;
+        padding: 0px!important;
+        border: none!important;
+        font-size: 1.6vh!important;
+    }
+
+    .header-button-left{
+        display: flex;
+        box-shadow: none!important;
+        justify-content: flex-end;
+        background-color:transparent!important;
+    }
+
+    .header-button-left-outer{
+        height:6vh!important;
+        padding-top:1.3rem!important;
+        background-color:#9D1016!important;
+    }
+
+
+    .header-button-right{
+        display: flex;
+        box-shadow: none!important;
+        justify-content: flex-start;
+        background-color:transparent!important;
+    }
+
+    .header-button-right-outer{
+        height:6vh!important;
+        padding-top:1.3rem!important;
+        background-color:#6C767B!important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+
+    .caption {
+        top: 4rem;
+    }
+
+    .button-header-per{
+        height: 4.8vh!important;
+        font-size: 1.3vh!important;
+    }
+
+    .header-button-left-outer{
+        height:4.8vh!important;
+        padding-top:1.4rem!important;
+    }
+
+    .header-button-right-outer{
+        height:4.8vh!important;
+        padding-top:1.4rem!important;
+    }
+}
+
